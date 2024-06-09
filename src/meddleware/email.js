@@ -17,7 +17,7 @@ const sendEmail = async (req, res, emailData) => {
     try {
         const mailOption = {
             from: process.env.EMAIL_USER, // sender address
-            to: "rajib0194305658@gmail.com", // list of receivers
+            to: "rajib01943075658@gmail.com", // list of receivers
             subject: emailData.subject, // Subject line
             html: emailData.html,
         };
